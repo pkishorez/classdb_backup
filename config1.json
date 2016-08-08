@@ -1,0 +1,47 @@
+[
+    {
+        "name" : "collection",
+        "in_designmode" : 1,
+        "max_file_size" : 1073741824,
+        "collection_offset" : 32,
+        "type" : "COLLECTION_FIXED",
+        "free_size" : 128,
+        "n_properties" : 1,
+        "unit_offset" : 32,
+        "unit_size" : 600,
+        "size_filled" : 100,
+        "properties" : [
+            {
+                "name" : "prop1",
+                "offset" : 32,
+                "type" : "PROPERTY_FIXED_SINGLE",
+                "n_datoms" : 3,
+                "size" : 100,
+                "size_filled" : 36,
+                "datoms" : [
+                    {
+                        "name" : "string",
+                        "allocsize" : 17,
+                        "offset" : 0,
+                        "size" : 17,
+                        "type" : "STRING"
+                    },
+                    {
+                        "name" : "int64",
+                        "allocsize" : 15,
+                        "offset" : 24,
+                        "size" : 8,
+                        "type" : "INT64"
+                    },
+                    {
+                        "name" : "int32",
+                        "allocsize" : 4,
+                        "offset" : 32,
+                        "size" : 4,
+                        "type" : "INT32"
+                    }
+                ]
+            }
+        ]
+    }
+]
